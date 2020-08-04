@@ -28,7 +28,9 @@ const Navbar = () => {
           <a href='#contact' className='nav-link nav-item'>
             Contact
           </a>
-          <Link className='nav-link nav-item'>Log In</Link>
+          <Link to='/' className='nav-link nav-item'>
+            Log In
+          </Link>
         </div>
       </div>
     </nav>

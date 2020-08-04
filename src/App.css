@@ -44,13 +44,19 @@ a:hover {
 /*------------------------------
             Home        
 ------------------------------*/
-.home .container,
-.home .row,
-.home .col-12,
-.home .d-flex {
+.home .container-fluid {
   height: 100%;
 }
-.home .s1 {
+.home .content {
+  height: 100%;
+  padding: 3rem;
+}
+.home .inner-content {
+  height: 100%;
+  padding: 3rem;
+  border: 1px solid rgba(170, 170, 170, 0.3);
+}
+.home .section:first-child {
   background: url(./images/landing.jpg) center no-repeat;
   background-size: cover;
 }
