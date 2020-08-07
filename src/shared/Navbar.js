@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className='navbar navbar-fixed navbar-expand-lg'>
       <Link to='/'>
-        <span className='navbar-brand'>
+        <span className='navbar-brand trans'>
           <h3>PS</h3>
         </span>
       </Link>
@@ -22,10 +22,10 @@ const Navbar = () => {
       </button>
       <div className='collapse navbar-collapse flex-column' id='myNavbar'>
         <div className='navbar-nav ml-auto order-2'>
-          <a href='#projects' className='nav-link nav-item'>
+          <a href='#Sunwater' className='nav-link nav-item'>
             Projects
           </a>
-          <a href='#contact' className='nav-link nav-item'>
+          <a href='#Contact' className='nav-link nav-item'>
             Contact
           </a>
           <Link to='/' className='nav-link nav-item'>
