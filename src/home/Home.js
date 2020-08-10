@@ -43,15 +43,16 @@ const Home = () => {
       role: 'Front-End Dev',
       year: '2018',
     },
+    {
+      id: '004',
+      description: 'Phil Savenok. All Rights Reserved.',
+    },
   ]
 
   let options = {
     sectionClassName: 'section',
-    anchors: ['Home', 'Sunwater', 'Amerra', 'Altus'],
+    anchors: ['Home', 'Sunwater', 'Amerra', 'Altus', 'Contact'],
     delay: 900,
-    navigation: true,
-    navigationPosition: 'right',
-    navigationTooltips: ['Home', 'Sunwater', 'Amerra', 'Altus'],
   }
 
   return (

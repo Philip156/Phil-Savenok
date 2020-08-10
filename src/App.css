@@ -143,6 +143,21 @@ a:hover {
 /*------------------------------
             Footer        
 ------------------------------*/
+.home .section:last-child {
+  background: linear-gradient(rgba(28, 29, 37, 0.95), rgba(28, 29, 37, 0.95)), url(./images/footer.jpg) center no-repeat;
+  background-size: cover;
+}
+.footer h1 {
+  color: #fff;
+  margin: 4rem 0 1rem;
+}
+.footer p a {
+  color: #fff;
+}
+.footer p a:hover {
+  color: #e17749;
+}
 footer {
-  padding: 1.5rem 0;
+  color: #fff;
+  padding: 1rem 0;
 }
