@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <nav className='navbar navbar-fixed navbar-expand-lg'>
-      <Link to='/'>
+      <Link to='/Portfolio'>
         <span className='navbar-brand trans'>
           <h3>PS</h3>
         </span>

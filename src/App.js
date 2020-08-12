@@ -6,10 +6,10 @@ import './App.css'
 function App() {
   return (
     <Router>
-      <Route path='/' exact>
+      <Route path='/Portfolio' exact>
         <Home />
       </Route>
-      <Redirect to='/' />
+      <Redirect to='/Portfolio' />
     </Router>
   )
 }

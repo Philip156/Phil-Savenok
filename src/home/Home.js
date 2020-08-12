@@ -10,7 +10,7 @@ const Home = () => {
       name: 'Philip Savenok',
       title: 'Front-End Developer',
       description:
-        "I'm a <span>Front-End Developer</span> from New York. <br> I design and develop experiences that make people's lives simple.",
+        "<span>Front-End Developer</span> from New York. <br> Design and developement of experiences that make people's lives simple.",
       updated: 'last update: <span>July 2020</span>',
     },
     {
@@ -51,7 +51,7 @@ const Home = () => {
 
   let options = {
     sectionClassName: 'section',
-    anchors: ['Home', 'Sunwater', 'Amerra', 'Altus', 'Contact'],
+    anchors: ['', 'Sunwater', 'Amerra', 'Altus', 'Contact'],
     delay: 900,
   }
 
