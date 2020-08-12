@@ -1,5 +1,6 @@
 {
-  "name": "phil-savenok",
+  "home": "https://Philip156/github.io/Portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,6 +35,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "prettier": "2.0.5"
   }
 }
