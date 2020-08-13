@@ -51,7 +51,7 @@ const Home = () => {
 
   let options = {
     sectionClassName: 'section',
-    anchors: ['', 'Sunwater', 'Amerra', 'Altus', 'Contact'],
+    anchors: [' ', 'Sunwater', 'Amerra', 'Altus', 'Contact'],
     delay: 900,
   }
 
